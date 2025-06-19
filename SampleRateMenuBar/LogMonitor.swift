@@ -9,7 +9,7 @@
 import Foundation
 
 class LogMonitor {
-    static func startMonitoring(onSampleRateFound: @escaping (Double) -> Void) {
+    static func startMonitoring(taskRef: inout Process?, onSampleRateFound: @escaping (Double) -> Void) {
         let task = Process()
         let pipe = Pipe()
 
@@ -33,6 +33,7 @@ class LogMonitor {
 
         do {
             try task.run()
+            taskRef = task
         } catch {
             print("❌ Failed to start log monitor: \(error)")
         }
