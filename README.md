@@ -1,9 +1,13 @@
-# Apple Music Sample Rate Sync for MAC OS 26.0
+# Apple Music Sample Rate Sync for MAC OS 15.4 and higher.
+
+
 
 # Tested on 
-# 1.  26.0 Beta (25A5279m)
+1.  26.0 Beta (25A5279m)
+2.  15.5
+3.  15.4
 
-
+# Consider leaving a star if you like this app
 
 A macOS menu bar app that syncs your Audio MIDI output sample rate to the current Apple Music track.
 
