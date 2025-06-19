@@ -1,39 +1,63 @@
-# Apple Music Sample Rate Sync for MAC OS 15.4 and higher.
+# 🎵 SampleRateMenuBar — Match macOS Sample Rate to Apple Music Playback
 
+**SampleRateMenuBar** is a lightweight macOS menu bar app that automatically changes your system’s output sample rate to match the actual sample rate of songs playing in Apple Music.
 
+This avoids resampling, ensures bit-perfect playback, and enhances the listening experience for audiophiles using external DACs or high-resolution audio setups.
 
-# Tested on 
-1.  26.0 Beta (25A5279m)
-2.  15.5
-3.  15.4
+---
 
-# Consider leaving a star if you like this app
+## ✨ Features
 
-A macOS menu bar app that syncs your Audio MIDI output sample rate to the current Apple Music track.
+- ✅ **Detects real song playback**, not just queued tracks
+- 🔄 **Synchronizes system output sample rate** (e.g. 44.1kHz, 48kHz, 96kHz, 192kHz) with Apple Music
+- 🎧 Displays current output device, sample rate, and bit depth in the menu bar
+- 🛑 Works around Apple Music’s lack of automatic switching
+- ⚙️ Lightweight, sandbox-free, and requires no admin privileges
+- 🍎 Built natively using Swift + AppKit
 
-🎧 Automatically switches your output to 44.1, 48, 96, or 192 kHz — based on Apple Music logs.
+---
 
-## Features
+## 📸 Screenshot
 
-- Lightweight Swift app with Minimal UI
-- Displays current sample rate in macOS menu bar
-- Open Audio Midi settings right from menu bar
-- Monitors Apple Music track changes and matches sample rate of external DAC to currently playing song
-- Prevents feedback loops with safety checks
+![SampleRateMenuBar](screenshot.png)
 
-## Requirements
+---
 
-- macOS 26+
-- Full Disk Access (to read system logs)
+## 📦 Installation
 
-## Setup
+### Option 1: Prebuilt App (Recommended)
 
-1. Clone the repo
-2. Open `SampleRateMenuBar.xcodeproj` in Xcode
-3. Build and run
-4. Grant Full Disk Access in System Settings
+1. [Download the latest release](https://github.com/sifaralways/SampleRateMenuBar/releases)
+2. Move it to `/Applications`
+3. On first run, grant the following permissions:
+   - ✅ **Automation** → allow control of Music
+   - ✅ **Accessibility**
+   - ✅ **Full Disk Access** (to read Apple system logs)
 
+### Option 2: Build from Source
 
-## License
+```bash
+git clone https://github.com/sifaralways/SampleRateMenuBar.git
+cd SampleRateMenuBar
+open SampleRateMenuBar.xcodeproj
 
-Open Source
+```
+## 🖥 Requirements
+	•	macOS Monterey (15.4) or later
+	•	Music app (Apple Music)
+	•	Full Disk Access + Automation permission
+
+⸻
+
+## 🙏 Credits
+
+This app is inspired by the original idea from
+vincentneo/apple-music-sample-rate
+He pioneered the log-parsing concept — this fork builds on that to add:
+	•	Live track change detection via AppleScript
+	•	Retrospective log parsing using log show
+	•	GUI menu bar with device info and sample rate sync
+
+## 👋 Contribute
+
+PRs welcome! If you find bugs or have ideas, feel free to open an issue.
