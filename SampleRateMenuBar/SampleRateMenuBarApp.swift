@@ -1,17 +1,13 @@
-//
-//  SampleRateMenuBarApp.swift
-//  SampleRateMenuBar
-//
-//  Created by Akshat Singhal on 19/6/2025.
-//
-
 import SwiftUI
+import CoreAudio
 
 @main
 struct SampleRateMenuBarApp: App {
+    @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        Settings {
+            EmptyView() // no UI needed
         }
     }
 }
