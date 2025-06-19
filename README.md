@@ -19,7 +19,8 @@ This avoids resampling, ensures bit-perfect playback, and enhances the listening
 
 ## 📸 Screenshot
 
-![SampleRateMenuBar](screenshot.png)
+![image](https://github.com/user-attachments/assets/d1d7e0d2-2e44-4547-8320-9783c2430481)
+
 
 ---
 
