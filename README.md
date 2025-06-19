@@ -44,7 +44,7 @@ open SampleRateMenuBar.xcodeproj
 
 ```
 ## 🖥 Requirements
-	•	macOS Monterey (15.4) or later
+	•	macOS Sequoia (15.4) or later
 	•	Music app (Apple Music)
 	•	Full Disk Access + Automation permission
 
