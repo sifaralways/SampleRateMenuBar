@@ -51,12 +51,8 @@ open SampleRateMenuBar.xcodeproj
 
 ## 🙏 Credits
 
-This app is inspired by the original idea from
-vincentneo/apple-music-sample-rate
-He pioneered the log-parsing concept — this fork builds on that to add:
-	•	Live track change detection via AppleScript
-	•	Retrospective log parsing using log show
-	•	GUI menu bar with device info and sample rate sync
+This app is inspired by the original idea from https://github.com/vincentneo/LosslessSwitcher
+
 
 ## 👋 Contribute
 
