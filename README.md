@@ -11,9 +11,10 @@ A macOS menu bar app that syncs your Audio MIDI output sample rate to the curren
 
 ## Features
 
-- Lightweight Swift app with no UI
+- Lightweight Swift app with Minimal UI
 - Displays current sample rate in macOS menu bar
-- Monitors Apple Music logs (not system-wide)
+- Open Audio Midi settings right from menu bar
+- Monitors Apple Music track changes and matches sample rate of external DAC to currently playing song
 - Prevents feedback loops with safety checks
 
 ## Requirements
