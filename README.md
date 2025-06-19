@@ -31,4 +31,4 @@ A macOS menu bar app that syncs your Audio MIDI output sample rate to the curren
 
 ## License
 
-MIT or [your preferred license]
+Open Source
