@@ -1,4 +1,9 @@
-# Apple Music Sample Rate Sync
+# Apple Music Sample Rate Sync for MAC OS 26.0
+
+# Tested on 
+# 1.  26.0 Beta (25A5279m)
+
+
 
 A macOS menu bar app that syncs your Audio MIDI output sample rate to the current Apple Music track.
 
@@ -13,7 +18,7 @@ A macOS menu bar app that syncs your Audio MIDI output sample rate to the curren
 
 ## Requirements
 
-- macOS 12+
+- macOS 26+
 - Full Disk Access (to read system logs)
 
 ## Setup
@@ -22,6 +27,7 @@ A macOS menu bar app that syncs your Audio MIDI output sample rate to the curren
 2. Open `SampleRateMenuBar.xcodeproj` in Xcode
 3. Build and run
 4. Grant Full Disk Access in System Settings
+
 
 ## License
 
