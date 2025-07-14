@@ -1,3 +1,7 @@
+# Deprecated and Replaced by MAC4MAC. https://github.com/sifaralways/Mac4Mac. Please use new file, this will not be maintaned any more.
+
+
+
 # 🎵 SampleRateMenuBar — Match macOS Sample Rate to Apple Music Playback
 
 **SampleRateMenuBar** is a lightweight macOS menu bar app that automatically changes your system’s output sample rate to match the actual sample rate of songs playing in Apple Music.
